@@ -1,9 +1,10 @@
 # Predicting-User-Adoption
 ## Task: 
-'Defining an "adopted user" as a user who has logged into the product on three separate days in at least one seven­day period, identify which factors predict future user adoption.'
+This was a take-home assessment from psuedo-company "Relax, Inc."
+Defining an "adopted user" as a user who has logged into the product on three separate days in at least one seven­day period, my task was to identify which factors predict future user adoption.
 
 ## Data: 
-Two .csv files
+Two .csv files containing the following information:
 1. A user table with data on 12,000 users who signed up for the product in the past 2 years
 2. A usage summary table with a row for each day that a user logged into the product
 
@@ -12,6 +13,7 @@ Adopted users were defined and labeled in the users table based on entries in th
 
 
 
+## **Results:**
 
 
 ### **Factors which predict future user adoption, in order of importance:**
