@@ -1,10 +1,14 @@
 # Predicting-User-Adoption
-This project used ML to identify which factors predict future user adoption of an online service.
+## Task: 
+'Defining an "adopted user" as a user who has logged into the product on three separate days in at least one seven­day period, identify which factors predict future user adoption.'
 
-This was a mock take home assessment, with data and business case prompt provided.
+## Data: 
+Two .csv files
+1. A user table with data on 12,000 users who signed up for the product in the past 2 years
+2. A usage summary table with a row for each day that a user logged into the product
 
-
-## **Approach:** Adopted users were defined and labeled in the users table based on entries in the logins table. I derived some additional features, including the number of users in an organization and how many were active, whether a user was invited by an active user, and whether a user had invited other users and whether or not they were active. I fit the scaled & encoded data to an XGBoosted Tree Classifier and then found the SHAP values associated with each feature. SHAP values are plotted below for review.
+## **Approach:**
+Adopted users were defined and labeled in the users table based on entries in the logins table. I derived some additional features, including the number of users in an organization, how many organization users were active, whether a user was invited by an active user, how many invitations a user had sent to others who signed up, and how many of their invitees were now adopted users. I fit the scaled & encoded data to an XGBoosted Tree Classifier and then found the SHAP values associated with each feature to interpret their influence on the results. SHAP values are plotted below for review.
 
 
 
@@ -19,7 +23,7 @@ This was a mock take home assessment, with data and business case prompt provide
 6. Having a @gmail.com email address
 
 
-### **Factors which were found to predict a user not becoming adopted:**
+### **Factors which were found to predict a user *not* becoming adopted:**
 1. Creating an account for personal projects
 2. Having an @yahoo.com email address
 3. Having a higher number of users in their organization
