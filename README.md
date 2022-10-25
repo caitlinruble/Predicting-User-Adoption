@@ -31,6 +31,6 @@ AUROC = 0.63
 4. Being invited through their organization
 
 ### SHAP Values of Features
-![](https://github.com/caitlinruble/Predicting-User-Adoption/blob/0f6f2a854427450c18f4c75c9bb1149332c30896/Model%20SHAP%20values.png)
+![](https://github.com/caitlinruble/Predicting-User-Adoption/blob/699caca75d60b5acb2a906e5dedd09ec48b79e3c/Images/Model%20SHAP%20values.png)
 
 
