@@ -11,7 +11,7 @@ Two .csv files containing the following information:
 ## **Approach:**
 Adopted users were defined and labeled in the users table based on entries in the logins table. I derived some additional features, including the number of users in an organization, how many organization users were active, whether a user was invited by an active user, how many invitations a user had sent to others who signed up, and how many of their invitees were now adopted users. I fit the scaled & encoded data to an XGBoosted Tree Classifier and then found the SHAP values associated with each feature to interpret their influence on the results. SHAP values are plotted below for review.
 
-
+[img](https://github.com/caitlinruble/Predicting-User-Adoption/blob/0f6f2a854427450c18f4c75c9bb1149332c30896/Model%20SHAP%20values.png)
 
 ## **Results:**
 
